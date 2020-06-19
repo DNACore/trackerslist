@@ -1,23 +1,23 @@
 # ngosang/trackerslist
 Updated list of public BitTorrent trackers
 
-#### Updated: 2020-01-09
+#### Updated: 2020-06-19
 *These lists are automatically updated every day:*
 
-* trackers_best (20 trackers) => https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt
-* trackers_all (77 trackers) => https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt
-* trackers_all_udp (46 trackers) => https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_udp.txt
-* trackers_all_http (26 trackers) => https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_http.txt
-* trackers_all_https (5 trackers) => https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_https.txt
-* trackers_all_ws (5 trackers) => https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ws.txt
+* trackers_best (20 trackers) => [link](https://ngosang.github.io/trackerslist/trackers_best.txt) / [mirror](https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt)
+* trackers_all (101 trackers) => [link](https://ngosang.github.io/trackerslist/trackers_all.txt) / [mirror](https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt)
+* trackers_all_udp (52 trackers) => [link](https://ngosang.github.io/trackerslist/trackers_all_udp.txt) / [mirror](https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_udp.txt)
+* trackers_all_http (34 trackers) => [link](https://ngosang.github.io/trackerslist/trackers_all_http.txt) / [mirror](https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_http.txt)
+* trackers_all_https (15 trackers) => [link](https://ngosang.github.io/trackerslist/trackers_all_https.txt) / [mirror](https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_https.txt)
+* trackers_all_ws (1 trackers) => [link](https://ngosang.github.io/trackerslist/trackers_all_ws.txt) / [mirror](https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ws.txt)
 
 Are you having DNS problems? These lists contains the same trackers but with IP addresses instead of domains:
-* trackers_best_ip (20 trackers) => https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best_ip.txt
-* trackers_all_ip (69 trackers) => https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ip.txt
+* trackers_best_ip (16 trackers) => [link](https://ngosang.github.io/trackerslist/trackers_best_ip.txt) / [mirror](https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best_ip.txt)
+* trackers_all_ip (71 trackers) => [link](https://ngosang.github.io/trackerslist/trackers_all_ip.txt) / [mirror](https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ip.txt)
 
 ##### Notes
 * A bot automatically checks the trackers and updates the lists.
-* Trackers with the same domain or pointing to the same IP address are removed. Check out the [blacklist](https://raw.githubusercontent.com/ngosang/trackerslist/master/blacklist.txt).
+* Trackers with the same domain or pointing to the same IP address are removed. Check out the [blacklist](blacklist.txt).
 * Trackers are sorted by popularity and latency (from best to worst).
 * WebSocket trackers (AKA WebTorrent, ws, wss) are supported by few clients. [More info](https://webtorrent.io).
 * Lists with IP addresses can be shorter because [Cloudflare IPs](https://www.cloudflare.com/ips/) are removed.
